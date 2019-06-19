@@ -11,14 +11,19 @@ a {
 }
 .container {
   max-width: 1200px;
-  padding: 0 30px;
+  /* padding: 0 30px; */
   margin: 0 auto;
+  padding: 0px;
 }
 .pc {
   display : none;
 }
-.head_center h3 {
+.resch_box h3 {
+
+  font-size: 20px;
   text-align: center;
+  padding: 20px;
+  color: #ffffff;
 }
 /* ..... header.....*/
 header .container {
@@ -27,6 +32,7 @@ header .container {
   align-items: center;
   /*height: 51px;*/
   overflow: hidden;
+
 }
 
 header .logo img {
@@ -43,7 +49,7 @@ header .awesome {
   background-image: url(../images/header.jpg);
   background-repeat: no-repeat;
   /* height: 399px; */
-  padding: 100px 0;
+  padding: 143px 0;
   text-align: center;
   background-size: cover;
   color: white;
@@ -85,19 +91,21 @@ header .awesome {
 .ug_box h3 {
   font-size: 20px;
   text-align: left;
-  margin-left: -17px;
+  /* margin-left: -17px; */
   color: #f04e23;
 }
 .ug_box ul {
   font-size: 16px;
   text-align: left;
-  margin: 1px 0 0 15px;
+  /* margin: 1px 0 0 15px; */
   padding-bottom: 20px;
+  padding-left: 33px;
 }
 .ug_box a {
   font-size: 13px;
   text-decoration: underline;
   color: #f04e23;
+  padding-left: 15px;
 }
 .ug_box a:hover {
   color: blue;
@@ -106,7 +114,7 @@ header .awesome {
 /*admission box*/
 .admission_wrap {
   background-color: #eef8f0;
-  width: calc(100% + 60px);
+  width: calc(90% + 60px);
   margin-left: -30px;
   /* margin-right: -21px; */
 }
@@ -124,7 +132,7 @@ header .awesome {
   margin: 0 auto;
 }
 .admission_box table {
-  padding: 100px 50px;
+
   line-height: 49px;
   margin: 0 auto;
 }
@@ -133,6 +141,7 @@ header .awesome {
   border: solid 1px #ebe5e5;
   color: grey;
   height: 30px;
+  padding-left: 21px;
 
 }
 .admission_box th {
@@ -148,10 +157,10 @@ header .awesome {
   font-size: 12px;
   cursor: pointer;
   display: inline-block;
-  /* margin-bottom: 41px; */
   margin-top: 21px;
   font-size: 15px;
   padding: 10px 33px;
+  border: none;
 
 }
 /*§§§research box§§§*/
@@ -167,10 +176,11 @@ header .awesome {
   padding: 0;
   background-color: #252525;
 }
-.resch_box h3 {
-  padding: 30px 0 20px 0;
-  color: #f04e23;
-  font-size: 18px;
+.resch_box .research_section h3 {
+  padding: 30px 0 20px 10px;
+    color: #f04e23;
+    font-size: 22px;
+    text-align: left;
 }
 .resch_box .research_section .r1 {
   padding: 10px 10px 50px 10px;
@@ -178,6 +188,7 @@ header .awesome {
 .resch_box .rtext1 {
   background-color: #e3e7e8;
   padding-left: 10px;
+  padding-bottom: 50px;
 }
 .resch_box li {
   text-align: left;
@@ -187,8 +198,8 @@ header .awesome {
   width: 100%;
 }
 .resch_box p {
-  padding: 10px 0 40px 10px;
-  line-height:140%;
+  padding: 10px 32px 24px 1px;
+  line-height: 140%;
 }
 .resch_box .rtext1 a {
   color: #f04e23;
@@ -244,7 +255,7 @@ header .awesome {
 }
 /* ????? about & contact ???????? */
 .ac .container {
-  background-color: #252525;
+
   color: #eef8f0;
 }
 .ac .about h3 {
@@ -274,12 +285,15 @@ header .awesome {
   padding: 0;
 }
 .contakt h3 {
-  font-size: 19px;
+  font-size: 20px;
   text-align: left;
   padding: 44px 0 14px;
 }
 .contakt p {
   padding-bottom: 20px;
+}
+.ac {
+  background-color: #2d312e;
 }
 .ac .contakt li {
   list-style: none;
@@ -288,7 +302,15 @@ header .awesome {
 .ac .contakt li a {
   color: #f04e23;
   margin-right: 15px;
+
 }
+.ac .about_main {
+  padding: 15px;
+}
+.ac .contakt {
+  padding: 15px;
+}
+
 /*$$$$ footer $$$$*/
 .footer_contact {
   text-align: left;
@@ -297,7 +319,7 @@ header .awesome {
   padding: 0px;
   background: grey;
   width: 100%;
-  padding: 12px;
+  padding: 12px 0px;
   text-align: center;
 }
 .copy small {
@@ -320,14 +342,13 @@ header .awesome {
   }
   .body {
     font-family: 'PT Serif', serif;
+      margin: 0 auto;
 
   }
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
+
+
   main {
-    margin-top: -50px;
+    margin-top: -58px;
 
   }
   /* ..... header.....*/
@@ -363,8 +384,11 @@ header .awesome {
     color: red;
   }
   /* banner */
+.banner {
 
-
+padding: 150px 0;
+background-position: top;
+}
   .banner h2 {
     line-height: 55px;
     font-size: 39px;
@@ -393,18 +417,25 @@ header .awesome {
   .program_main .container {
     display: flex;
     justify-content: space-around;
+    align-items: stretch;
+    max-width: 90%;
+    padding: 10px 0px 45px 0px;
+
   }
   .program_main .course {
-    width: 65% ;
+    width: 60% ;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: stretch;
   }
   .program_main .pg_box {
     width: 46% ;
-    padding-right: 10px;
+    /* padding-right: 10px; */
+    background-color: #e3e7e8;
   }
   .program_main .ug_box {
     width: 46% ;
+    background-color: #e3e7e8;
   }
   .program_main  .admission_wrap {
     width: 35%;
@@ -429,20 +460,27 @@ header .awesome {
   .program_main .ug_box h3 {
     font-size: 20px;
     text-align: left;
-    margin-left: -17px;
+    margin-left: 3px;
     color: #f04e23;
   }
 
   .program_main .ug_box ul {
     font-size: 16px;
     text-align: left;
+    padding-left: 36px;
     /*margin: 1px 0 0 15px;
     padding-bottom: 20px;*/
+    padding-bottom: 20px;
+
   }
   .program_main .ug_box a {
     font-size: 13px;
     text-decoration: underline;
     color: #f04e23;
+    margin: 18px;
+    /* margin-bottom: 23px; */
+    display: block;
+
   }
   .ug_box a:hover {
     color: red;
@@ -454,20 +492,23 @@ header .awesome {
   .program_main .pg_box h3 {
     font-size: 20px;
     text-align: left;
-    margin-left: -17px;
+    margin-left: 3px;
     color: #f04e23;
   }
 
   .program_main .pg_box ul {
     font-size: 16px;
     text-align: left;
-    margin: 1px 0 0 15px;
+    /* margin: 1px 0 0 15px; */
     padding-bottom: 20px;
+    padding-left: 39px;
   }
   .program_main .pg_box a {
     font-size: 13px;
     text-decoration: underline;
     color: #f04e23;
+    display: block;
+    margin: 20px;
   }
   .pg_box a:hover {
     color: red;
@@ -519,11 +560,13 @@ header .awesome {
     font-size: 12px;
     cursor: pointer;
     display: inline-block;
-    margin-bottom: 41px;
-    margin-top: 21px;
+    margin-bottom: 58px;
+    /* margin-top: 21px; */
     font-size: 15px;
     padding: 10px 33px;
   }
+
+
 
 
   /*§§§research box§§§*/
@@ -537,7 +580,7 @@ header .awesome {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    items-align: center;
+    align-items: center;
   }
   .resch_box .research_section .r1 {
     text-align: center;
@@ -554,14 +597,27 @@ header .awesome {
 
   }
   .resch_box .research_section p {
-    padding: 20px 10px 50px 10px;
     font-size: 16px;
-    line-height: 160%;
     text-align: justify;
+    padding: 20px 10px 21px 10px;
+    /* line-height: 160%; */
+    text-align: justify;
+    text-align: left;
   }
+
 
   .resch_box .research_section .rtext1 {
     min-height: 250px;
+    position: relative;
+  }
+  .resch_box .research_section .rtext1 a {
+    text-align: left;
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+
+
   }
 /* NEWS AND EVENT */
 .ne_box {
@@ -583,7 +639,7 @@ header .awesome {
 .ne_box .container {
   display: flex;
   justify-content: space-between;
-  items-align: center;
+  align-items: center;
   flex-direction: row;
 }
 
@@ -593,15 +649,16 @@ footer {
 }
 footer .ac  {
   width: 100%;
-  background-color: #252525
+  background-color: #252525;
   flex-direction: column;
 }
 footer .ac .container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
+  width: 100%;
 }
-footer.ac .about h3 {
+footer .ac .about h3 {
   text-align: left;
   color: #eef8f0;
   font-size: 22px;
@@ -610,27 +667,19 @@ footer.ac .about h3 {
 
 footer .ac .about_main {
   width: 50%;
-  padding: 80px 0 50px 15px;
+  padding: 52px 0 50px 107px;
 }
 footer .ac .contakt {
   width: 50%;
   padding: 10px 0px 0px 270px;
 }
 footer .ac .contakt .h3 {
-  padding: 0px;
+  padding: 0px 0 33px 0px;
 
 }
 .footer .ac .about p {
-      padding: 15px 48px 36px 1px;
+  padding: 15px 48px 36px 1px;
 }
-
-
-
-
-
-
-
-
 
 
 
