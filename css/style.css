@@ -37,11 +37,13 @@ header .container {
 
 header .logo img {
   width: 99px;
+  padding-left: 15px;
 }
 header .awesome {
   background: none;
   border: none;
   font-size: 30px;
+  padding-right: 15px;
 }
 
 /* banner */
