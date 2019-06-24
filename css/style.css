@@ -255,7 +255,7 @@ header .awesome {
 .ne_box .e1image img {
   width: 100%;
 }
-/* ????? about & contact ???????? */
+/*$$$$$$$$$$$$$$$$about & contact&&&&&&&&&&&&&&*/
 .ac .container {
 
   color: #eef8f0;
@@ -313,7 +313,7 @@ header .awesome {
   padding: 15px;
 }
 
-/*$$$$ footer $$$$*/
+/*$$$$§§§§§§§§§§§ footer §§§§§§§§§§§$$$$*/
 .footer_contact {
   text-align: left;
 }
@@ -383,7 +383,7 @@ header .awesome {
     font-weight: bold;
   }
   a:hover {
-    color: red;
+    color: #f04e23;
   }
   /* banner */
 .banner {
@@ -476,7 +476,7 @@ background-position: top;
 
   }
   .program_main .ug_box a {
-    font-size: 13px;
+    font-size: 16px;
     text-decoration: underline;
     color: #f04e23;
     margin: 18px;
@@ -485,7 +485,7 @@ background-position: top;
 
   }
   .ug_box a:hover {
-    color: red;
+    color: #f04e23;
   }
 
   .program_main .pg_box img {
@@ -506,14 +506,14 @@ background-position: top;
     padding-left: 39px;
   }
   .program_main .pg_box a {
-    font-size: 13px;
+    font-size: 16px;
     text-decoration: underline;
     color: #f04e23;
     display: block;
     margin: 20px;
   }
   .pg_box a:hover {
-    color: red;
+    color: #f04e23;
   }
   /* .program_main1 {
   display: flex;
