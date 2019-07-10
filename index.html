@@ -1,226 +1,223 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Academy University</title>
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-  <header>
-    <div class="container">
-      <a class="logo" href="cons.html"><img src="images/logo2.png" alt="Academy University"></a>
-      <nav class="pc">
-        <ul>
-          <li><a href="cons.html">HOME</a></li>
-          <li><a href="cons.html">PROGRAM</a></li>
-          <li><a href="cons.html">ADMISSION</a></li>
-          <li><a href="cons.html">RESEARCH</a></li>
-          <li><a href="cons.html">NEWS & EVENTS</a></li>
-        </ul>
-      </nav>
 
-      <button class="awesome"><i class="fa fa-bars"></i></button>
-    </div>
-  </header>
-  <main>
-    <div class="banner">
-      <div class="container">
-        <h2>WELCOME TO <br>ACADEMY UNIVERSITY</h2>
-        <p>Through knowledge and hard work,the constellations change,but the mind<br> remains the same.</p>
-        <a href="cons.html">VISIT CAMPUS</a>
-      </div>
-    </div>
+	<header>
+		<div class="container">
+			<a class="logo" href="#"><img src="images/logo2.png" alt="Academy University"></a>
 
-    <div class="program_main">
-      <h3 class="head_center">PROGRAM</h3>
-      <div class="container">
-        <div class="course">
-          <section class="ug_box">
-            <figure><img src="images/ug.jpg" alt="laptop"></figure>
-            <h3>UNDERGRADUATE</h3>
-            <ul>
-              <li>Law</li>
-              <li>Human Body</li>
-              <li>Biology</li>
-            </ul>
+			<nav class="nav-box" id='navBox'>
+				<ul>
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">PROGRAM</a></li>
+					<li><a href="#">ADMISSION</a></li>
+					<li><a href="#">RESEARCH</a></li>
+					<li><a href="#">NEWS & EVENTS</a></li>
+				</ul>
+			</nav>
 
-            <a href="cons.html">Read more</a>
+			<button class="menu-btn" id='menuBtn'><i class="fa fa-bars"></i></button>
+		</div>
+	</header>
 
-          </section>
-          <section class="pg_box pc">
-            <figure><img src="images/pg.jpg" alt="board"></figure>
-            <h3>POSTGRADUATE</h3>
-            <ul>
-              <li>Cinematograpy</li>
-              <li>Cell Biology</li>
-              <li>Algebra</li>
-            </ul>
+	<div class="banner">
+		<div class="container">
+			<h1>WELCOME TO ACADEMY<br>UNIVERSITY</h1>
+			<P>Through knowledge and hard work, the<br>constellations change, but the mind remains the same.</P>
+			<a class="common-btn" href="#">Visit Campus</a>
+		</div>
+	</div>
 
-            <a href="#">Read more</a>
+	<div class="programs">
+		<h3 class="common-heading">PROGRAMME</h3>
+		<div class="container">
+			<div class="programs-outer">
+				<div class="program">
+					<figure>
+						<img src="images/ug.jpg" alt="">
+					</figure>
+					<div class="text">
+						<h4>UNDERGRADUATE</h4>
+						<ul>
+							<li>Law</li>
+							<li>Human Body</li>
+							<li>Biology</li>
+						</ul>
+						<a href="#">READ MORE</a>
+					</div>
+				</div>
+				<div class="program pc">
+					<figure>
+						<img src="images/pg.jpg" alt="">
+					</figure>
+					<div class="text">
+						<h4>POSTGRADUATE</h4>
+						<ul>
+							<li>Cinematograpy</li>
+							<li>Cell Biology</li>
+							<li>Algebra</li>
+						</ul>
+						<a href="#">READ MORE</a>
+					</div>
+				</div>
+			</div>
+			<div class="admission">
+				<h3 class="common-heading">ADMISSION</h3>
+				<form class="content">
+					<div class="field">
+						<label for="name">Name</label>
+						<input type="text" id="name" placeholder="Your Name">
+					</div>
+					<div class="field">
+						<label for="email">Email</label>
+						<input type="text" id="email" placeholder="Your Email">
+					</div>
+					<div class="field">
+						<label for="mobile">Mobile</label>
+						<input type="text" id="mobile" placeholder="Your Mobile">
+					</div>
+					<button class="common-btn">Submit</button>
+				</form>
+			</div>
+		</div>
+	</div>
 
-          </section>
-        </div>
-        <div class="admission_wrap">
+	<div class="researches">
+		<h3 class="common-heading">RESEARCH</h3>
+		<div class="container">
+			<div class="research">
+				<figure>
+					<img src="images/research1.jpg" alt="">
+				</figure>
+				<div class="content">
+					<h4>CELL BIOLOGY</h4>
+					<p>This is a new Primary Research,gold access jury from Calofirnia.Although recent studies says more about things
+						on..</p>
+						<a href="#">READ MORE</a>
+				</div>
+			</div>
+			<div class="research pc">
+				<figure>
+					<img src="images/research2.jpg" alt="">
+				</figure>
+				<div class="content">
+					<h4>FERN</h4>
+					<p>Water reacts differently on different body.New research has shown that Human body can ...... </p>
+					<a href="#">READ MORE</a>
+				</div>
+			</div>
+			<div class="research pc">
+				<figure>
+					<img src="images/research11.jpg" alt="">
+				</figure>
+				<div class="content">
+					<h4>MEDICAL MICE</h4>
+					<p>Medical mice are famoue for theier newly bogy jdjdnh the nice mice the book .
+</p>
+					<a href="#">READ MORE</a>
+				</div>
+			</div>
+		</div>
+	</div>
 
-            <h3 class="head_center">ADMISSION</h3>
-            <div class=admission_box>
-              <table>
-                <tr>
-                  <th>Name</th>
-                  <td><input name="name" type="text" value="Your Name"></td>
-                </tr>
-                <tr>
-                  <th>Email</th>
-                  <td><input name="name" type="text" value="Your Email"></td>
-                </tr>
-                <tr>
-                  <th>Mobile</th>
-                  <td><input name="name" type="text" value="Your Mobile"></td>
-                </tr>
-              </table>
-              <button>SUBMIT</button>
-            </div>
+	<div class="news-event">
+		<h3 class="common-heading">NEWS & EVENT</h3>
+		<div class="container">
+			<div class="event">
+				<div class="text">
+					<h1><span>OCT</span> 29</h1>
+					<p>Exchange Books</p>
+				</div>
+				<figure>
+					<!-- <img src="images/research1.jpg" alt=""> -->
+				</figure>
+			</div>
+			<div class="event pc">
+				<figure>
+					<!-- <img src="images/research1.jpg" alt=""> -->
+				</figure>
+				<div class="text">
+					<h1><span>OCT</span> 29</h1>
+					<p>Exchange Books</p>
+				</div>
 
-        </div>
-      </div>
-    </div>
+			</div>
+			<div class="event">
+				<div class="text">
+					<h1><span>OCT</span> 29</h1>
+					<p>Exchange Books</p>
+				</div>
+				<figure>
+					<!-- <img src="images/research1.jpg" alt=""> -->
+				</figure>
+			</div>
+			<div class="event pc">
+				<figure>
+					<!-- <img src="images/research1.jpg" alt=""> -->
+				</figure>
+				<div class="text">
+					<h1><span>OCT</span> 29</h1>
+					<p>Exchange Books</p>
+				</div>
+			</div>
+		</div>
+	</div>
 
-    <div class="resch_box">
-      <div class="container">
-        <h3>RESEARCH</h3>
-        <ul class="research_section">
-          <li class="r1">
-            <figure class="rimg"><img src="images/research11.jpg" alt="lab"></figure>
-            <div class="rtext1">
-              <h3>CELL BIOLOGY</h3>
-              <p>This is a new primary Research,gold access jury from california.Although,recent studies says
-                more about things on..</p>
-                <a href="cons.html">Read more</a>
-              </div>
-            </li>
+	<footer>
+		<div class="top">
+			<div class="container">
+				<div class="about">
+					<h3 class="common-heading">ABOUT US</h3>
+					<p>With more than 650 affiliated colleges, the Karnataka government has decided to bifurcate, or
+						'carve out a new university' to ease of management. To this effect, the state government had
+						appointed two study groups. One group was headed by former Gulbarga University.</p>
+					<ul>
+						<li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+						<li><a href="#"><i class="fa fa-rss"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+					</ul>
+				</div>
 
-            <li class="r1 pc">
-              <figure class="rimg"><img src="images/research2.jpg" alt="fern"></figure>
-              <div class="rtext1">
-                <h3>FERN</h3>
-                <p>Water reacts differently on different body.New Research has shown that human body can..</p>
-                <a href="cons.html">Read more</a>
-              </div>
-            </li>
-            <li class="r1 pc">
-              <figure class="rimg"><img src="images/research3.jpg" alt="computer"></figure>
-              <div class="rtext1">
-                <h3>MEDICAL MICE</h3>
-                <p>Medical mice are famoue for theier newly bogy jdjdnh the nice mice the book.</p>
-                <a href="cons.html">Read more</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="ne_box">
-        <h3>NEWS & EVENTS</h3>
-        <div class="container">
+				<div class="contact">
+					<h3 class="common-heading">CONTACT US</h3>
+					<ul>
+						<li>
+							<a href="#"><i class="fa fa-map-marker"></i>Address: Kormangala,Banglore</a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-phone"></i>Phone: +11 234 534 534</a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-map-pin"></i>Fax: 00 345 45 444</a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-envelope"></i>Email: call@web.com</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="bottom">
+			<div class="container">
+				<small>Copyright &copy; 2019 by Academy University</small>
+			</div>
+		</div>
+	</footer>
 
-          <div class="event_main">
-            <div class="event">
-              <div class="e1text">
-                <h3><span>OCT</span>29</h3>
-                <p>Exchange books.</p>
-              </div>
-              <div class="e1image">
-                <img src="images/lib.jpg" alt="building">
-              </div>
-            </div>
-            <div class="event">
-              <div class="e1text">
-                <h3><span>JAN</span>22</h3>
-                <p>Meet Students.</p>
-              </div>
-              <div class="e1image">
-                <img src="images/boys.jpg" alt="boys">
-              </div>
-            </div>
-          </div>
-          <div class="news_main pc">
-            <div class="event pc">
-              <div class="e1image">
-                <img src="images/people.jpg" alt="building">
-              </div>
-              <div class="e1text">
-                <h3><span>SEP</span>22</h3>
-                <p>Exchange books.</p>
-              </div>
-            </div>
-            <div class="event pc">
-              <div class="e1image">
-                <img src="images/zell.jpg" alt="building">
-              </div>
-              <div class="e1text">
-                <h3><span>FEB</span>19</h3>
-                <p>Theory Seminar.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-    <footer>
-      <div class="ac">
+	<script src="js/script.js"></script>
+</body>
 
-        <div class="container">
-          <div class="about_main">
-            <div class="about">
-              <h3>ABOUT US</h3>
-              <p>With more than 650 affiliated colleges, the Karnataka government has decided to bifurcate, or 'carve out a new university' to ease of management. To this effect, the state government had appointed two study groups. One group was headed by former Gulbarga University.</p>
-            </div>
-            <div class="socialmedia">
-              <ul>
-                <li><a href="cons.html"><i class="fa fa-facebook-f"></i></a></li>
-                <li><a href="cons.html"><i class="fa fa-rss"></i></a></li>
-                <li><a href="cons.html"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="cons.html"><i class="fa fa-pinterest"></i></a></li>
-                <li><a href="cons.html"><i class="fa fa-instagram"></i></a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="contakt">
-
-            <h3 class="footer_contact">CONTACT US</h3>
-            <ul>
-              <li>
-                <a href="cons.html"><i class="fa fa-map-marker"></i></a>
-                Address:kormangala,Banglore
-              </li>
-              <li>
-                <a href="cons.html"><i class="fa fa-phone"></i></a>
-                +11 234 534 534
-              </li>
-              <li>
-                <a href="cons.html"><i class="fa fa-map-pin"></i></a>
-                Fax: 00 345 45 444
-              </li>
-              <li>
-                <a href="cons.html"><i class="fa fa-envelope"></i></a>
-                Email: call@web.com
-              </li>
-            </ul>
-
-          </div>
-        </div>
-        <div class="copy">
-          <small>Copyright &copy; 2019 by Academy University</small>
-        </div>
-      </div>
-
-    </footer>
-
-
-
-  </body>
-  </html>
+</html>
